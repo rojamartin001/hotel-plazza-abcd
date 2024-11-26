@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #5D4540;
+    font-family: "Roboto Serif", serif;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    height: 70px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    
+    
+}
+.nav-item .nav-link{
+    font-size: 20px;
+    transition: font-size .2s;
+    color: #5D4540;
+   
+ 
+}
+
+
+.xlink{
+    border: solid 1px #5D4540;
+    border: none; 
+   
+     
+}
+.xlink:hover{
+    border-bottom: solid 1px;
+    text-align: left;
+    
+    
+    
+}
+#menunav{
+    color: blue;
+    /* border-bottom: blue 1px solid; */
+}
+/* font-family: "FuturaPT-Book", "Arial"; */
+/*  */
+.navbar-collapse {
+  background-color: rgba(255, 255, 255); /* White with slight opacity */
+}
+.navbar-collapse.collapse.show .xlink, 
+.navbar-collapse.collapse.show #menunav {
+    border-bottom: none !important; /* Remove underline */
+    padding-bottom: 0;  /*  Remove extra padding */
+}
+.row p{
+    font-size: 30px;
+}
+
+/* foooter */
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #5D4540;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 80px 0px 0px 160px;
+  
+
+}
+
+.footlinks {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.brands {
+    margin-right: 40px;
+    border: solid;
+    border-radius: 50%;
+    padding: 5px;
+
+
+}
+
+.footlist {
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+
+.foothead {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.footlinks:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+
+
+   
+    
+   
+
+
+
+
+
+
+   
+    
+   
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+/* Media query for smaller screens to ensure no underline in collapsed state */
+@media (max-width: 768px) {
+    .xlink:hover, #menunav:hover {
+        border-bottom: none; /* Disable hover underline when navbar is collapsed */
+    }
+}
+/* Default styling for rows */
+.row {
+    border-bottom: solid #5D4540 1px; /* Horizontal line illusion */
+}
+
+/* Add right border to the columns for large screens */
+.hi {
+    border-right: solid 1px #5D4540; /* Vertical line illusion */
+}
+
+/* Media query for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .row {
+        border-bottom: none; /* Remove border-bottom on smaller screens */
+    }
+    .hi {
+        border-right: none; /* Remove the right border for smaller screens */
+    }
+}
+@media (max-width: 768px){
+    footer{
+        display: block;
+        height:100%;
+       }
+       .grp{
+        margin-top: 30px;
+       }
+}

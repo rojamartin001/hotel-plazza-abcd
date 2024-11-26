@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #5D4540;
+    font-family: "Roboto Serif", serif;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    height: 70px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    
+}
+.nav-item .nav-link{
+    font-size: 20px;
+    transition: font-size .2s;
+}
+
+
+.xlink{
+    border: solid 1px black;
+    border: none; 
+     
+}
+.xlink:hover{
+    border-bottom: solid 1px;
+    
+    
+}
+#dinningnav{
+    color: blue;
+    /* border-bottom: blue 1px solid; */
+}
+.navbar-collapse {
+    background-color: rgba(255, 255, 255); /* White with slight opacity */
+  }
+  .navbar-collapse.collapse.show .xlink, 
+  .navbar-collapse.collapse.show #dinningnav {
+      border-bottom: none !important; /* Remove underline */
+      padding-bottom: 0;  /*  Remove extra padding */
+  }
+
+
+  /* footer */
+  footer {
+    width: 100%;
+    height: 500px;
+    background-color: #5D4540;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 80px 0px 0px 160px;
+  
+
+}
+
+.footlinks {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.brands {
+    margin-right: 40px;
+    border: solid;
+    border-radius: 50%;
+    padding: 5px;
+
+
+}
+
+.footlist {
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+
+.foothead {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.footlinks:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+  
+
+
+  /* responsive */
+  @media (max-width: 768px){
+    footer{
+        display: block;
+        height:100%;
+       
+       }
+       .grp{
+        margin-top: 30px;
+       }
+}
+ 
